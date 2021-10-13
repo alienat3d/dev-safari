@@ -1,0 +1,52 @@
+// === COLORS ===
+// $default: #8d8d8d;
+// $title: #29282d;
+// $accent: #fe3e57;
+// $white: #fff;
+// $black: #000;
+// $background: #f6f6f6;
+// $line: #ececec;
+// === / COLORS ===
+
+// === TRANSITION ===
+// $transition-fast: all 0.3s;
+// === / TRANSITION ===
+
+// === FONTS ===
+// %quicksand-400 {
+//   font-family: "Quicksand-Regular", sans-serif;
+//   font-weight: 400;
+// }
+// === / FONTS ===
+
+// === BUTTONS ===
+// %btn {
+//   border: none;
+//   padding: 12px 26px;
+//   @extend %roboto-400;
+//   text-transform: uppercase;
+//   color: $white;
+//   background-color: $accent;
+//   box-shadow: 0px 7px 20px 0px rgba(255, 17, 48, 0.3);
+//   cursor: pointer;
+// }
+// === / BUTTONS ===
+
+// === HIDE CHECKBOX ===
+// %hide-checkbox {
+//   position: absolute;
+//   overflow: hidden;
+//   clip: rect(0 0 0 0);
+//   width: 1px;
+//   height: 1px;
+// }
+// === / HIDE CHECKBOX ===
+
+// === snippet for "FancyBox" plugin ===
+// @function max($numbers...) {
+//   @return m#{a}x(#{$numbers});
+// }
+// @function min($numbers...) {
+//   @return m#{i}n(#{$numbers});
+// }
+// === / snippet for "FancyBox" plugin ===
