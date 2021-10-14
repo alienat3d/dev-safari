@@ -5,7 +5,32 @@
 @import "global";
 // === PARTIALS ===
 
+// === HEADER ===
+.header {
 
+  &__inner {}
+
+  &__top {}
+
+  &__phone {}
+
+  &__phone-number {}
+
+  &__title {}
+
+  &__content {}
+
+  &__description {}
+
+  &__button {}
+
+  &__arrow {}
+
+  &__arrow-link {}
+
+  &__arrow-icon {}
+}
+// === / HEADER ===
 
 // === ADAPTIVE ===
 @import "media";
