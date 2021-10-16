@@ -7,30 +7,115 @@
 
 // === HEADER ===
 .header {
+  background: url("../images/header-bg.jpg") top center / cover no-repeat;
+  
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+  }
 
-  &__inner {}
+  &__top {
+    padding: 16px 0 49px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: $white;
+  }
 
-  &__top {}
+  .logo {
+    margin-bottom: 15px;
+  }
 
-  &__phone {}
+  &__phone {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+  }
 
-  &__phone-number {}
+  &__phone-number {
+    margin-left: 19px;
+    padding: 12px 31px;
+    border-radius: 22px;
+    background-color: $accent;
+    font-weight: 400;
+  }
 
-  &__title {}
+  &__title {
+    margin-bottom: auto;
+    text-align: center;
+    @extend %pt-serif-700;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 117px;
+  }
 
-  &__content {}
+  &__content {
+  }
 
-  &__description {}
+  &__description {
+    margin-bottom: 20px;
+    max-width: 422px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.4;
+  }
 
-  &__button {}
+  &__button {
+    margin-bottom: 20px;
+    display: inline-block;
+    padding: 20px 55px;
+    font-size: 18px;
+    line-height: 1;
+    color: $white;
+    border-radius: $border-radius;
+    background-color: $accent;
+  }
 
-  &__arrow {}
+  &__arrow {
+    text-align: center;
+    margin-bottom: 15px;
+  }
 
-  &__arrow-link {}
+  &__arrow-link {
+    display: inline-block;
+    transition: $transition-normal;
 
-  &__arrow-icon {}
+    &:hover {
+        transform: translateY(25%);
+    }
+  }
 }
 // === / HEADER ===
+
+// === DIRECTIONS ===
+.directions {
+  padding: 100px 0;
+
+  &__inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+  }
+
+  &__item {
+  }
+
+  &__link {}
+
+  &__image {}
+
+  &__name {
+    padding: 12px 19px;
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid #D9D9DE;
+    border-top: none;
+  }
+}
+// === / DIRECTIONS ===
 
 // === ADAPTIVE ===
 @import "media";

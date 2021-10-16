@@ -1,22 +1,28 @@
 // === COLORS ===
-// $default: #8d8d8d;
+$text:   #1f1e1e;
 // $title: #29282d;
-// $accent: #fe3e57;
-// $white: #fff;
-// $black: #000;
+$accent: #886239;
+$white:  #fff;
+$black:  #000;
 // $background: #f6f6f6;
 // $line: #ececec;
 // === / COLORS ===
 
 // === TRANSITION ===
-// $transition-fast: all 0.3s;
+$border-radius-sm: 22px; 
+$border-radius: 30px; 
+// === / TRANSITION ===
+
+// === TRANSITION ===
+$transition-very-fast: all .15s;
+$transition-normal: all .7s;
 // === / TRANSITION ===
 
 // === FONTS ===
-// %quicksand-400 {
-//   font-family: "Quicksand-Regular", sans-serif;
-//   font-weight: 400;
-// }
+%pt-serif-700 {
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+}
 // === / FONTS ===
 
 // === BUTTONS ===
