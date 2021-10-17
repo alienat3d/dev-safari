@@ -52,9 +52,6 @@
     line-height: 117px;
   }
 
-  &__content {
-  }
-
   &__description {
     margin-bottom: 20px;
     max-width: 422px;
@@ -99,13 +96,6 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 32px;
   }
-
-  &__item {
-  }
-
-  &__link {}
-
-  &__image {}
 
   &__name {
     padding: 12px 19px;
