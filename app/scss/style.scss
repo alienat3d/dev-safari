@@ -109,7 +109,7 @@
 
 // === / DIRECTIONS ===
 
-// ===  TRAVEL-INFO ===
+// === TRAVEL-INFO ===
 .travel-info {
   padding: 33px 0 72px;
   background-image: url("../images/travel-info-bg.jpg");
@@ -213,6 +213,21 @@
 }
 
 // === / OFFER ===
+
+// === MAP ===
+.map {
+  padding-bottom: 100px;
+
+  // .map__title
+  &__title {
+    margin-bottom: 46px;
+  }
+
+  // .map__iframe
+  &__iframe {}
+}
+
+// === / MAP ===
 
 // === ADAPTIVE ===
 @import "media";
