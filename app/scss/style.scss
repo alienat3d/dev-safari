@@ -263,10 +263,10 @@
 
   // .video-preview__more-link
   &__more-link {
-    border-bottom: 1px solid #c4c4c4;
+    border-bottom: 1px solid $line;
     font-size: 16px;
     line-height: 1.2;
-    color: #c4c4c4;
+    color: $line;
     transition: $transition-fast;
 
     &:hover {
@@ -394,6 +394,65 @@
 }
 
 // === / GALLERY ===
+
+// === TOUR ===
+.tour {
+  padding: 100px 0;
+
+  // .tour__title
+  &__title {
+    margin-bottom: 77px;
+  }
+
+  // .tour__text-box
+  &__text-box {
+    margin-bottom: 44px;
+    padding-bottom: 43px;
+    border-bottom: 1px solid #D9D9DE;
+    column-count: 2;
+    column-gap: 46px;
+  }
+
+  // .tour__text
+  &__text {
+    margin-bottom: 30px;
+
+    span {
+      font-weight: 700;
+    }
+  }
+
+  // .tour__numbers
+  &__numbers {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 70px;
+  }
+
+  // .tour__numbers-item
+  &__numbers-item {
+    text-align: center;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 1.3;
+    color: $accent;
+  }
+
+  // .tour__numbers-text
+  &__numbers-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: $text;
+  }
+}
+
+// === / TOUR ===
+
+// === BOOKING ===
+
+// === / BOOKING ===
 
 // === ADAPTIVE ===
 @import "media";
