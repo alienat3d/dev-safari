@@ -1,24 +1,59 @@
 // === minimal self-written CSS-reset settings ===
-html { box-sizing: border-box; }
+html {
+  box-sizing: border-box;
+}
 
-*, *::before, *::after { box-sizing: inherit; }
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 
-ul[class], ol[class] { padding: 0; }
+ul,
+ol {
+  padding: 0;
+}
 
-body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd { margin: 0; }
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
 
-ul[class] { list-style: none; }
+ul[class] {
+  list-style: none;
+}
 
 img {
   display: block;
   max-width: 100%;
 }
 
-input, button, textarea, select { font: inherit; }
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
 
-a { 
+a {
   text-decoration: none;
   color: inherit;
 }
 
-address { font-style: normal; }
+address {
+  font-style: normal;
+}

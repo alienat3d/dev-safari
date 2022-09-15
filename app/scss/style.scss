@@ -85,6 +85,38 @@
   }
 }
 
+.menu {
+  padding: 12px 0 9px;
+  width: 100%;
+  border-top: 1px solid $white;
+  border-bottom: 1px solid $white;
+  text-align: center;
+
+  &__btn {
+    display: none;
+  }
+
+  &__list {
+    // width: 878px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  &__link {
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: $border-radius-sm;
+    font-size: 16px;
+    line-height: 1;
+    transition: $transition-very-fast;
+
+    &:hover {
+      background-color: $accent;
+    }
+  }
+}
+
 // === / HEADER ===
 
 // === DIRECTIONS ===
@@ -129,9 +161,6 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 54px 67px;
   }
-
-  // .travel-info__item
-  &__item {}
 
   // .travel-info__img
   &__img {
@@ -247,9 +276,6 @@
     grid-gap: 32px;
   }
 
-  // .video-preview__content
-  &__content {}
-
   // .video-preview__title
   &__title {
     margin-bottom: 25px;
@@ -286,12 +312,6 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
-
-  // .video-preview__popup-link
-  &__popup-link {}
-
-  // .video-preview__popup-img
-  &__popup-img {}
 }
 
 // === / VIDEO-PREVIEW ===
@@ -311,9 +331,6 @@
     align-items: center;
   }
 
-  // .gallery__title
-  &__title {}
-
   // .gallery__link
   &__link {
     border-bottom: 1px solid $white;
@@ -326,12 +343,6 @@
       color: darken($white, 15%);
     }
   }
-
-  // .gallery__slider
-  &__slider {}
-
-  // .gallery__item
-  &__item {}
 
   // .gallery__item-inner
   &__item-inner {
@@ -389,8 +400,6 @@
   background: none;
   cursor: pointer;
   transition: $transition-fast;
-
-  img:hover {}
 }
 
 // === / GALLERY ===
@@ -605,9 +614,6 @@
     font-weight: 500;
     color: $white;
   }
-
-  // .footer__copyright
-  &__copyright {}
 
   // .footer__confident
   &__confident {
