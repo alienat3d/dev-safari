@@ -1,3 +1,16 @@
+// === WIDTH < 1140px ===
+@media (max-width: 1140px) {
+  .directions__inner {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+
+  .directions__image {
+    width: 100%;
+  }
+}
+
+// === / WIDTH < 1140px ===
 // === WIDTH < 800px ===
 @media (max-width: 800px) {
   .header__phone {
@@ -110,6 +123,15 @@
   .menu__link {
     padding: 17px;
     text-align: center;
+  }
+
+  .directions {
+    padding: 50px 0;
+  }
+
+  .directions__inner {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
   }
 }
 
