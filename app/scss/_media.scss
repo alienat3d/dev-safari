@@ -52,15 +52,6 @@
   .booking__input {
     width: 100%;
   }
-
-  .booking__button {
-    margin-top: 40px;
-  }
-
-  .booking__label {
-    margin-top: -240px;
-    margin-left: 63px;
-  }
 }
 
 // === / WIDTH < 850px ===
@@ -85,7 +76,8 @@
 
   .offer,
   .tour,
-  .booking {
+  .booking,
+  .footer {
     padding: 50px 0;
   }
 
@@ -135,8 +127,34 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .booking__button {
+    margin: 40px auto 0;
+    width: 90%;
+  }
+
   .booking__label {
     width: 100%;
+    margin-top: -233px;
+    margin-left: 20%;
+  }
+
+  .footer__logo {
+    margin-bottom: 40px;
+  }
+
+  .footer__box {
+    display: block;
+    text-align: center;
+  }
+
+  .footer__info,
+  .footer__address,
+  .footer__contacts {
+    margin: 0 auto 25px;
+  }
+
+  .footer__contacts {
+    margin-bottom: 0;
   }
 }
 
@@ -299,6 +317,10 @@
   .video-preview__popup {
     min-height: 250px;
   }
+
+  .booking__checkbox-text {
+    font-size: 14px;
+  }
 }
 
 // === / WIDTH < 440px ===
@@ -317,6 +339,14 @@
   .tour__text {
     margin-bottom: 0;
   }
+
+  .booking__checkbox-text {
+    font-size: 11px;
+  }
+
+  .booking__label {
+    margin-left: 15%;
+  }
 }
 
 // === / WIDTH < 360px ===
@@ -329,11 +359,14 @@
   .menu__btn {
     top: 119px;
   }
-}
 
-// === / WIDTH < 333px ===
-// === WIDTH < px ===
-// @media (max-width: px) {
+  .booking__button {
+    padding: 19px 58px 20px;
+  }
 
-// }
-// === / WIDTH < px ===
+  // === / WIDTH < 333px ===
+  // === WIDTH < px ===
+  // @media (max-width: px) {
+
+  // }
+  // === / WIDTH < px ===
