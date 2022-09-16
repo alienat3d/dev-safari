@@ -13,6 +13,11 @@
     grid-template-columns: 1fr 2fr;
     grid-gap: 20px;
   }
+
+  .gallery__item-inner {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+  }
 }
 
 // === / WIDTH < 1140px ===
@@ -67,16 +72,14 @@
     min-height: 360px;
   }
 
-  .map {
-    padding-bottom: 50px;
-  }
-
   .map__img {
     min-height: 400px;
     background-position: 20% center;
   }
 
-  .video-preview {
+  .map,
+  .video-preview,
+  .gallery {
     padding-bottom: 50px;
   }
 
@@ -213,6 +216,21 @@
   .offer__inner {
     padding-bottom: 10px;
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .gallery__top {
+    flex-wrap: wrap;
+  }
+
+  .gallery__title {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .gallery__item-inner {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
   }
 }
 
