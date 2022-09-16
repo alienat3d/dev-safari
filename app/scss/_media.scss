@@ -61,6 +61,15 @@
     padding: 25px 30px;
     min-height: 360px;
   }
+
+  .map {
+    padding-bottom: 50px;
+  }
+
+  .map__img {
+    min-height: 400px;
+    background-position: 20% center;
+  }
 }
 
 // === / WIDTH < 800px ===
