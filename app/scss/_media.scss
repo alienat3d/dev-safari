@@ -47,6 +47,23 @@
 }
 
 // === / WIDTH < 990px ===
+// === WIDTH < 850px ===
+@media (max-width: 850px) {
+  .booking__input {
+    width: 100%;
+  }
+
+  .booking__button {
+    margin-top: 40px;
+  }
+
+  .booking__label {
+    margin-top: -240px;
+    margin-left: 63px;
+  }
+}
+
+// === / WIDTH < 850px ===
 // === WIDTH < 800px ===
 @media (max-width: 800px) {
   .header__phone {
@@ -67,7 +84,8 @@
   }
 
   .offer,
-  .tour {
+  .tour,
+  .booking {
     padding: 50px 0;
   }
 
@@ -115,6 +133,10 @@
 
   .tour__numbers {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .booking__label {
+    width: 100%;
   }
 }
 

@@ -550,7 +550,7 @@
       position: absolute;
       width: 16px;
       height: 16px;
-      background-color: $line;
+      background-color: $text;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -561,7 +561,7 @@
   &__checkbox-styled {
     position: absolute;
     margin-left: -45px;
-    border: 2px solid $line;
+    border: 2px solid $text;
     border-radius: 2px;
     width: 26px;
     height: 26px;
