@@ -8,6 +8,11 @@
   .directions__image {
     width: 100%;
   }
+
+  .video-preview__inner {
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+  }
 }
 
 // === / WIDTH < 1140px ===
@@ -69,6 +74,18 @@
   .map__img {
     min-height: 400px;
     background-position: 20% center;
+  }
+
+  .video-preview {
+    padding-bottom: 50px;
+  }
+
+  .video-preview__inner {
+    grid-template-columns: 1fr;
+  }
+
+  .video-preview__popup {
+    min-height: 415px;
   }
 }
 
@@ -214,6 +231,10 @@
   .travel-info__inner {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
+  }
+
+  .video-preview__popup {
+    min-height: 250px;
   }
 }
 
